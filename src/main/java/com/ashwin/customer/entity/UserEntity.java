@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -25,8 +24,8 @@ public class UserEntity implements Serializable {
     @Column(name = "date_of_birth")
     private Date dateOfBirth;
 
-    @NotNull
-    @Column(name ="gender")
+
+    @Column(name ="gender",nullable = false)
     private String gender;
 
     @Column(name = "phone_number")

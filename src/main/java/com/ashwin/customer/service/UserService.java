@@ -8,7 +8,7 @@ import com.ashwin.customer.vo.Gender;
 import com.ashwin.customer.vo.UserRequest;
 import com.ashwin.customer.vo.UserResponse;
 import com.ashwin.customer.vo.UserType;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PostAuthorize;
 import org.springframework.security.access.prepost.PreAuthorize;
